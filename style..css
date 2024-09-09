@@ -66,14 +66,13 @@ main {
     margin-left: 100px;
 
 }
-
-
 .travel-image {
     width: 100%; 
     max-width: 600px; 
     height: auto;
     position:relative;
     z-index: 100%;
+    
 }
 
 .ellipse-image,
@@ -90,18 +89,20 @@ main {
     margin-top:-180px ;  
 }
 
+
+
 section {
     margin-top: 40px;
 }
 
 section h1 {
-    font-size: 2em;
+    font-size: 1em;
     margin-bottom: 10px;
     text-align: center;
 }
 
 section h2 {
-    font-size: 1.2em;
+    font-size: 0.5em;
     color: #6c757d;
     text-align: center; 
     
@@ -112,12 +113,12 @@ section {
 }
 
 section h1 {
-    font-size: 2em;
+    font-size: 1em;
     margin-bottom: 10px;
 }
 
 section h2 {
-    font-size: 1.2em;
+    font-size: 0.5em;
     color: #6c757d; 
 }
 body {
@@ -125,26 +126,18 @@ body {
     font-family: Arial, sans-serif;
 }
 
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
 
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
 
 .card-container0 {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     gap: 44px; 
     padding: 10px; 
-    width: fill(1200px);
+    width: fill(100px);
     height: hug(848px);
 }
 .card1, .card2, .card3, .card4, .card5, .card6{
-    width: fill(370.67px);
+    width: fill(300.67px);
     height: fixed(404px);
     border: 1px;
     padding: 16px 16px 36px 16px;
@@ -192,11 +185,13 @@ body {
 .inner-card-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
-    gap: 20px; 
+    gap: 28px; 
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     box-sizing: border-box;
+    background-color: #12a369;
+    height: 400px;
 }
 
 .card{
@@ -204,10 +199,7 @@ body {
     flex-direction: column; 
     justify-content: center; 
     padding: 20px;
-    border: 1px solid whitesmoke;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px (0,0,0,0.1);
-    box-sizing: border-box;
+   
     text-align: left; 
     
     
@@ -216,6 +208,10 @@ body {
 .card-white{
     background-color: #fff;
     height: hug(864px);
+    border: 1px solid   #12a369;
+    box-shadow: 0 4px 8px (0,0,0,0.1);
+    box-sizing: border-box;
+    text-align: left;
 
 }
 
@@ -236,11 +232,19 @@ body {
 }
 
 .card-content h1 {
-    font-size: 1.5em;
+    font-size: 1em;
+    text-align: left;
+    padding-top:10px ;
+    padding-bottom: 30px;
 }
 
 .card-content h2 {
-    font-size: 1.2em;
+    font-size: 0.5em;
+    text-align: left;
+}
+.card-content h1 span{
+    text-align: center;
+    background-color: #25A59E;
 }
     .card-blue {
         background:  #25A59E; 
