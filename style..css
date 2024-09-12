@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: #f8f3f3;
 }
 
 header {
@@ -64,8 +65,8 @@ main {
     display: inline-block;
     width: 800px;
     margin-left: 100px;
-
 }
+
 .travel-image {
     width: 100%; 
     max-width: 600px; 
@@ -81,7 +82,7 @@ main {
     position: absolute;
     width: 200%; 
     height: 300px;
-    transform: translateX(-9%);
+    transform: translateX(-33%);
     
 }
 .blurry-image{
@@ -126,140 +127,203 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.inner-card-container {
+    display: flex; 
+    gap: 40px; 
+    justify-content: center;
+    width: 100%;
+    height: 12em;
 
 
+}
 .card-container0 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 44px; 
-    padding: 10px; 
-    width: fill(100px);
-    height: hug(848px);
-}
-.card1, .card2, .card3, .card4, .card5, .card6{
-    width: fill(300.67px);
-    height: fixed(404px);
-    border: 1px;
-    padding: 16px 16px 36px 16px;
-    gap: 28px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+    justify-content: space-between; 
 }
 
-.card1, .card2, .card3, .card4, .card5, .card6 {
-    display: flex;
-    flex-direction: column; 
-    border: 1px solid #ddd;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+.card {
+    flex: 1 1 calc(33.333% - 20px); 
     box-sizing: border-box;
-    padding: 10px;
+    margin-bottom: 20px; 
+    border: 1px solid #ddd; 
     overflow: hidden; 
-    position: relative; 
-    
+    background-color: #fff;  
+    padding-top: 20px;
+    gap: 20px;
 }
+
+
 
 .card img {
-    
-    height: 60%; 
-    object-fit: cover; 
+    width: 100%; 
+    height: auto;
 }
 
 .card-content {
-    text-align: left; 
-    margin-top: 10px;
-
+    padding: 15px;
 }
 
-.card-content h4, .card-content h6 {
-    margin: 5px 0;
-
+.card-content h4 {
+    margin: 0 0 10px; 
+    font-size: 0.5em; 
+    color: #333; 
 }
 
-.card-content h6 {
-    color: #555; 
-}
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-
-
-.inner-card-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 28px; 
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    box-sizing: border-box;
-    background-color: #12a369;
-    height: 400px;
-}
-
-.card{
+.location {
     display: flex;
-    flex-direction: column; 
-    justify-content: center; 
-    padding: 20px;
-   
-    text-align: left; 
-    
-    
+    align-items: center;
+    gap: 5px; 
+}
+
+.location img {
+    width: 16px; 
+    height: auto;
+}
+
+.location h6 {
+    margin: 0;
+    font-size: 0.2em; 
+    color: #666; 
+}
+
+.location h6 {
+    margin: 0;
 }
 
 .card-white{
     background-color: #fff;
-    height: hug(864px);
-    border: 1px solid   #12a369;
-    box-shadow: 0 4px 8px (0,0,0,0.1);
-    box-sizing: border-box;
     text-align: left;
+    width: 350px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    height: 100%; 
+    box-sizing: border-box;
+}
+.listtop{
+position: absolute;
+width: 23.7%;
+height: 4px;
+bottom: 450px;
+left: 176.5px;
+background-color: #25A59E;
+justify-items: start;
+}
+.listtop2{
+position: absolute;
+width: 23.7%;
+height: 4px;
+bottom: 450px;
+right: 176.5px;
+background-color: #25A59E;
+justify-items: start;
 
 }
-
 .card-green {
     background-color:#25A59E;
+    color: #f8f8f8;
+    width: 350px;
 }
-
+.card-green h2{
+    color: #f8f8f8;
+}
 .card-content {
     display: flex;
     flex-direction: column;
-    gap: 10px; 
-    text-align: left;
+    gap: 20px; 
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0- auto;
+    
 }
-
 .card-content h1, .card-content h2 {
     margin: 0;
-    line-height: 1.4; 
+    line-height: 1.4;
+    padding-left: 20px; 
 }
-
 .card-content h1 {
     font-size: 1em;
     text-align: left;
     padding-top:10px ;
     padding-bottom: 30px;
+    font-family: "gilda display"  
+}
+.card{
+    padding-left:20px ;
+    padding-right:20px ;
+}
+.card-content h2 {
+    font: rgb(202, 199, 199);
+    font-size: 0.4em;
+    text-align: left;
+    font-family: "Urbanist";
+}
+.card-content span{
+    font: rgb(255, 255, 255);
+    font-family: "gilda display";
+    font-size: medium;
+    padding-left: 100px;
 }
 
-.card-content h2 {
-    font-size: 0.5em;
-    text-align: left;
+.details-container {
+    display: flex; 
+    align-items: center;
+    margin-top: 170px;
+    color:  #25A59E;
 }
-.card-content h1 span{
-    text-align: center;
-    background-color: #25A59E;
+.card-green{
+    background-color:  #25A59E;
 }
-    .card-blue {
-        background:  #25A59E; 
-        color: white; 
-    }
+
+.spann{
+    margin-right: 8px; 
+    padding-left: 170px;
+    font-size: 0.6em;
+    margin-bottom: 1px;
     
+}
+.spann3{
+    margin-right: 8px; 
+    padding-left: 170px;
+    font-size: 0.6em;
+    margin-bottom: 1px;
+    color: #f8f3f3;
+}
+.greenn{
+    display: flex; 
+    align-items: center; 
+    margin-top: 170px;
+}
+.greenn{
+    margin-left: 130px; 
+    padding-left: 8px;
+    font-size: 0.6em;
+    margin-bottom: 10px;
+    
+}
+.color {
+    vertical-align: middle; 
+    }
+
+    
+
+.arrow-right img {
+    vertical-align: middle; 
+}
+
+    .more{
+        color:#25A59E;
+    }
     .card-white {
         background: white; 
         color: black; 
     }
-    
     .card-content {
 
     }
-    
 .content span{
     color: #25A59E; 
     font: italic;
@@ -267,8 +331,8 @@ body {
 .content h3{
     font-size: 2em;
     color: #0a0f14;
-    
 }
+
 .content {
     display: flex;
     align-items: center; 
@@ -279,7 +343,6 @@ body {
     padding-top: 100px;
     padding-bottom: 300px;
 }
-
 .text-group {
     flex: 1; 
 }
@@ -288,34 +351,65 @@ img {
     max-width: 200%;
     height: auto;
 }
+.trip {
+    text-align: center; 
+    padding: 20px; 
+}
+.trip p {
+    font-size: 3em; 
+    color: #333; 
+    margin: 0; 
+    line-height: 1.2; 
+}
+.Watch {
+    position: relative; 
+    display: inline-block; 
+    width: 100%;
+}
 
-.trip{
-    text-align: center;
-    font-size: 2em;
-        position: relative;
-        display: inline-block;
-    }
-    
-    .Watch img {
-        display: block; 
-    }
-    
-    .Watch .circle {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 100px; 
-        height: 100px; 
-    }
-    
+.Watch img {
+    display: block; 
+}
 
+.Watch .circle {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
+.Watch img[src*="Play.svg"] {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
 .footer {
     padding: 20px;
     background-color: #f8f8f8;
     width: Fill (1,440px)
+}
 
+.Watch {
+    position: relative;
+    display: inline-block; 
+}
+.background-image {
+    display: block; 
+}
 
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
 }
 
 .group {
@@ -337,17 +431,9 @@ img {
     justify: space-between;
     padding: 0px, 120px, 0px, 120px;
 }
-
-.cta-image {
-    max-width: 150px; 
-    height: auto;
-    
-}
-
 .header-container h5 {
     margin: 0; 
 }
-
 .text-content p {
     margin: 0;
     line-height: 1.5;
@@ -368,16 +454,24 @@ img {
 }
 
 .social {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0  10px;
     
+}
+.cam{
+    
+    width: 20%;
 }
 
 .header-links {
     
 }
-
 .header-links h5 {
     display: inline;
-    margin: 0 10px; 
+    margin: 0  10px; 
 }
 
 
