@@ -127,13 +127,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.inner-card-container {
-    display: flex; 
-    gap: 40px; 
-    justify-content: center;
-    width: 100%;
-    height: 12em;
-}
+
 .card-container0 {
     display: flex;
     flex-wrap: wrap;
@@ -141,16 +135,7 @@ body {
     justify-content: space-between; 
 }
 
-.card {
-    flex: 1 1 calc(33.333% - 20px); 
-    box-sizing: border-box;
-    margin-bottom: 20px; 
-    border: 1px solid #ddd; 
-    overflow: hidden; 
-    background-color: #fff;  
-    padding-top: 20px;
-    gap: 20px;
-}
+
 
 
 
@@ -189,7 +174,13 @@ body {
 .location h6 {
     margin: 0;
 }
-
+.inner-card-container {
+    display: flex; 
+    gap: 40px; 
+    justify-content: center;
+    width: 100%;
+    height: 12em;
+}
 .card-white{
     background-color: #fff;
     text-align: left;
