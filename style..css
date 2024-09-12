@@ -162,7 +162,8 @@ body {
 .card-content h4 {
     margin: 0 0 10px; 
     font-size: 0.5em; 
-    color: #333; 
+    color: #333;
+
 }
 
 .location {
@@ -196,7 +197,7 @@ body {
     background-color: #fff;
     text-align: left;
     width: 350px;
-    border-radius: 8px; 
+    border-radius: 1px; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
     height: 100%; 
     box-sizing: border-box;
@@ -218,7 +219,6 @@ bottom: 450px;
 right: 176.5px;
 background-color: #25A59E;
 justify-items: start;
-
 }
 .card-green {
     background-color:#25A59E;
@@ -237,11 +237,10 @@ justify-items: start;
     align-self: stretch;
     width: 100%;
     flex: 0 0- auto;
-    
 }
 .card-content h1, .card-content h2 {
     margin: 0;
-    line-height: 1.4;
+    line-height: 10;
     padding-left: 20px; 
 }
 .card-content h1 {
@@ -267,7 +266,6 @@ justify-items: start;
     font-size: medium;
     padding-left: 100px;
 }
-
 .details-container {
     display: flex; 
     align-items: center;
@@ -277,7 +275,6 @@ justify-items: start;
 .card-green{
     background-color:  #25A59E;
 }
-
 .spann{
     margin-right: 8px; 
     padding-left: 170px;
@@ -302,13 +299,10 @@ justify-items: start;
     padding-left: 8px;
     font-size: 0.6em;
     margin-bottom: 10px;
-    
 }
 .color {
     vertical-align: middle; 
     }
-
-    
 
 .arrow-right img {
     vertical-align: middle; 
@@ -452,14 +446,12 @@ img {
     justify-content: space-between;
     align-items: center; 
 }
-
 .social {
 
     display: flex;
     flex-direction: row;
     align-items: center;
     margin: 0  10px;
-    
 }
 .cam{
     
