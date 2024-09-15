@@ -85,7 +85,7 @@ The desktop view of the travel website is designed with HTML and CSS to provide 
 
 To use the desktop view, open the site on a desktop browser or a larger screen. The site is optimized for resolutions of 1280x720 pixels or higher.
 
-##Screenshots
+## Screenshots
 
 ## License
 
@@ -94,7 +94,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Author
 
 If you have any questions or need further assistance, feel free to reach out:
-
+**Name:** Your Name
 - **Email**: fatimammcy@gmail.com
 - **GitHub**: https://github.com/fatimaabubakaradam
 - **Website**: https://github.com/fatimaabubakaradam/travel-website.git
