@@ -1,15 +1,14 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "gilda display";
     background-color: #f8f3f3;
 }
 
 header {
-    background-color: #f8f9fa;
-    padding: 10px 0;
+    padding: 40px 110px;
     text-align: left;
     font: lighter;
-    color: #12a369;
+    color: #25A59E;
     width: fixed(1200px);
     height: Hug(33px);
     padding-top: 30px;
@@ -17,14 +16,13 @@ header {
     display: flex; 
     align-items: center; 
     justify-content: space-between; 
-
 }
 .frame img {
     display: block; 
-    padding-right: 100px;
+    padding: 100px;
 }
 h1{
-    font-family: Gilda Display;
+    font-family: "gilda display";
     
 }
 
@@ -46,7 +44,10 @@ main {
 
 .travel {
     margin-bottom: 20px;
-    font-family: Gilda Display; 
+    font-family: "gilda display"; 
+    font-size: 1.5em;
+    width: 100%;
+    padding-bottom: 50px;
 }
 
 .travel h1 {
@@ -57,7 +58,8 @@ main {
 }
 
 .travel span {
-    color: #12a369;
+    color: #25A59E;
+    font-family: "gilda display";
 }
 
 .image-container {
@@ -65,6 +67,8 @@ main {
     display: inline-block;
     width: 800px;
     margin-left: 100px;
+    padding-bottom: 100px;
+    
 }
 .travel-image {
     width: 100%; 
