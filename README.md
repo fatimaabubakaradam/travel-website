@@ -94,7 +94,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Author
 
 If you have any questions or need further assistance, feel free to reach out:
-**Name:** Your Name
+   **Name:** Fatima Abubakar
 - **Email**: fatimammcy@gmail.com
 - **GitHub**: https://github.com/fatimaabubakaradam
 - **Website**: https://github.com/fatimaabubakaradam/travel-website.git
