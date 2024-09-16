@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/a4bc20ad-4254-4073-b0b5-8058e973446c)Travel Website Desktop View
 # Travel Website Desktop View
 
 Welcome to the Travel Website project! This repository contains the desktop view implementation of our travel website, designed with HTML and CSS to provide a visually appealing and user-friendly experience for travelers planning their next adventure.
