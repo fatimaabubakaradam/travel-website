@@ -1,4 +1,4 @@
-Travel Website Desktop View
+![image](https://github.com/user-attachments/assets/a4bc20ad-4254-4073-b0b5-8058e973446c)Travel Website Desktop View
 # Travel Website Desktop View
 
 Welcome to the Travel Website project! This repository contains the desktop view implementation of our travel website, designed with HTML and CSS to provide a visually appealing and user-friendly experience for travelers planning their next adventure.
@@ -86,7 +86,13 @@ The desktop view of the travel website is designed with HTML and CSS to provide 
 To use the desktop view, open the site on a desktop browser or a larger screen. The site is optimized for resolutions of 1280x720 pixels or higher.
 
 ## Screenshots
-![Desktop View](https://github.com/user-attachments/assets/a69edf9c-aebf-4fa6-952c-2a2e3868a40b)
+![Desktop view header](https://github.com/user-attachments/assets/2f5499ba-25ff-42b0-a625-59e5eb0fbcd7)
+![Desktop view section](https://github.com/user-attachments/assets/c7b4d389-b845-461a-a607-fd8fda7b430b)
+![Desktop view footer](https://github.com/user-attachments/assets/d12fe76e-1703-4d03-95a8-5681a787b642)
+
+
+
+
 
 
 
@@ -100,7 +106,7 @@ If you have any questions or need further assistance, feel free to reach out:
 -   **Name:** Fatima Abubakar
 - **Email**: fatimammcy@gmail.com
 - **GitHub**: https://github.com/fatimaabubakaradam
-- **Website**: https://github.com/fatimaabubakaradam/travel-website.git
+- **Website**: https://travel-website-uu5f.onrender.com
 
 Thank you for visiting the Travel Website desktop view repository. We hope you find it useful and enjoy contributing to the project!
 
