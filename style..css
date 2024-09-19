@@ -8,7 +8,7 @@ body {
 header {
     padding: 40px 110px;
     text-align: left;
-    font: lighter;
+    font-weight: ;
     color: #25A59E;
     width: fixed(1200px);
     height: Hug(33px);
@@ -16,7 +16,7 @@ header {
     padding-left: 100px;
     display: flex; 
     align-items: center; 
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 .frame img {
     display: block; 
@@ -49,12 +49,16 @@ main {
     font-size: 4vw;
     width: 100%;
     padding-bottom: 50px;
+    
+    
 }
 
 .travel h1 {
     font-size: 2.5em;
     line-height: 1.2;
     margin: 1px;
+    padding-bottom: 20px;
+    font-weight: 400;
     padding-bottom: 20px;
 }
 
@@ -77,8 +81,6 @@ main {
     z-index: 100%;
     
 }
-
-
 .ellipse-image,
 .blurry-image {
     margin-top: 67px;
@@ -92,9 +94,6 @@ main {
     height: 500px;
     margin-top:-180px ;  
 }
-
-
-
 section {
     margin-top: 40px;
 }
@@ -116,8 +115,6 @@ section {
     padding: 0 20px; 
 }
 
-
-
 section h1 {
     font-size: 1em;
     margin-bottom: 10px;
@@ -131,8 +128,6 @@ body {
     margin: 0;
     font-family: "gilda display";
 }
-
-
 .card-container0 {
     display: flex;
     flex-wrap: wrap;
@@ -150,45 +145,35 @@ body {
     padding-top: 20px;
     gap: 20px;
 }
-
-
-
 .card img {
     width: 100%; 
     height: auto;
 }
-
 .card-content {
     padding: 15px;
 }
 .card-content1{
-  
 }
-
 .card-content h4 {
     margin: 0 0 10px; 
     font-size: 0.5em; 
     color: #333;
-
+    text-align: left;
 }
-
 .location {
     display: flex;
     align-items: center;
     gap: 5px; 
 }
-
 .location img {
     width: 16px; 
     height: auto;
 }
-
 .location h6 {
     margin: 0;
     font-size: 0.2em; 
     color: #666; 
 }
-
 .location h6 {
     margin: 0;
 }
@@ -199,8 +184,6 @@ body {
     width: 100%;
     height: 12em;
 }
-
-
 .card-white{
     background-color: #fff;
     justify-content: flex-end;
@@ -212,10 +195,8 @@ body {
     flex-direction: column;
     position: relative;
     box-shadow: 10px 26px 150px #4342631a; 
-
 }
 .best{
-    
     text-align: left;
     font-size: 1em;
     font-family: "gilda display";
@@ -225,15 +206,11 @@ body {
     padding-top:20px;
     margin-top: 100px;
     transform: translateY(50%);
-
-
 }
 .p{
     font-family: "urbanist";
     font-size: 0.5em;
     color: #6c757d;
-
-
 }
 .guide{
     text-align: left;
@@ -260,13 +237,77 @@ body {
     padding-top:20px;
     margin-top: 100px;
     transform: translateY(50%);
-    
 }
 .p3{
     font-family: "urbanist";
     font-size: 0.5em;
     color: #6c757d;
-  
+}
+.inner-card-container {
+    display: flex; 
+    gap: 40px; 
+    justify-content: center;
+    width: 100%;
+    height: 12em;
+}
+.card-white{
+    background-color: #fff;
+    justify-content: flex-end;
+    gap: 80px;
+    padding: 40px 32px 48px;
+    flex: 1;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 10px 26px 150px #4342631a; 
+}
+.best{
+    text-align: left;
+    font-size: 1em;
+    font-family: "gilda display";
+    color: #343333;
+    width: 80%;
+    padding: 20px;
+    padding-top:20px;
+    margin-top: 100px;
+    transform: translateY(50%);
+}
+.p{
+    font-family: "urbanist";
+    font-size: 0.5em;
+    color: #6c757d;
+}
+.guide{
+    text-align: left;
+    font-size: 1em;
+    font-family: "gilda display";
+    color: #FFFFFF;
+    width: 80%;
+    padding: 20px;
+    padding-top:20px;
+    margin-top: 100px;
+    transform: translateY(50%);
+}
+.p2{
+    font-family: "urbanist";
+    font-size: 0.5em; 
+}
+.always{
+    text-align: left;
+    font-size: 1em;
+    font-family: "gilda display";
+    color: #343333;
+    width: 80%;
+    padding: 20px;
+    padding-top:20px;
+    margin-top: 100px;
+    transform: translateY(50%);
+}
+.p3{
+    font-family: "urbanist";
+    font-size: 0.5em;
+    color: #6c757d;
 }
 .listtop{
 position: absolute;
@@ -303,30 +344,6 @@ margin-right: -32px;
 }
 .card-green h2{
     color: #f8f8f8;
-}
-.card-content {
-    display: flex;
-    flex-direction: column;
-    gap: 20px; 
-    align-items: flex-start;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    flex: 0 0- auto;
-}
-.card-content1 h, .card-content h2 {
-    margin: 0;
-    line-height: 5px;
-    padding-left: 5px; 
-}
-.card-content h1 {
-    font-size: 100px;
-    text-align: left;
-    padding-top:5px ;
-    padding-bottom: 5px;
-    font-family: "gilda display"
-    
-     
 }
 .card{
     padding-left:20px ;
@@ -376,7 +393,6 @@ margin-right: -32px;
     font-size: 2em;
     color: #0a0f14;
 }
-
 .content {
     display: flex;
     align-items: center; 
