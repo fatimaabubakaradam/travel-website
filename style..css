@@ -1,0 +1,539 @@
+body {
+    margin: 0;
+    font-family: "gilda display";
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+}
+
+header {
+    padding: 40px 110px;
+    text-align: left;
+    font-weight: ;
+    color: #25A59E;
+    width: fixed(1200px);
+    height: Hug(33px);
+    padding-top: 30px;
+    padding-left: 100px;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+.frame img {
+    display: block; 
+    padding: 100px;
+}
+h1{
+    font-family: "gilda display";
+    
+}
+
+nav {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.textarea1 {
+    position: relative;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 35px;
+}
+
+.travel {
+    margin-bottom: 20px;
+    font-family: "gilda display"; 
+    font-size: 4vw;
+    width: 100%;
+    padding-bottom: 50px;
+    
+    
+}
+
+.travel h1 {
+    font-size: 2.5em;
+    line-height: 1.2;
+    margin: 1px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.travel span {
+    color: #25A59E;
+    font-family: "gilda display";
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    width: 800px;
+    margin: auto;
+}
+.travel-image {
+    width: 100%; 
+    max-width: 600px; 
+    height: auto;
+    position:relative;
+    z-index: 100%;
+    
+}
+.ellipse-image,
+.blurry-image {
+    margin-top: 67px;
+    position: absolute;
+    width: 200%; 
+    height: 300px;
+    transform: translateX(-33%);
+    
+}
+.blurry-image{
+    height: 500px;
+    margin-top:-180px ;  
+}
+section {
+    margin-top: 40px;
+}
+
+section h1 {
+    font-size: 1em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 0.5em;
+    color: #6c757d;
+    text-align: center; 
+    
+}
+section {
+    margin-top: 40px;
+    padding: 0 20px; 
+}
+
+section h1 {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+section h2 {
+    font-size: 0.5em;
+    color: #6c757d; 
+}
+body {
+    margin: 0;
+    font-family: "gilda display";
+}
+.card-container0 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+    justify-content: space-between; 
+}
+
+.card {
+    flex: 1 1 calc(33.333% - 20px); 
+    box-sizing: border-box;
+    margin-bottom: 20px; 
+    border: 1px solid #ddd; 
+    overflow: hidden; 
+    background-color: #fff;  
+    padding-top: 20px;
+    gap: 20px;
+}
+.card img {
+    width: 100%; 
+    height: auto;
+}
+.card-content {
+    padding: 15px;
+}
+.card-content1{
+}
+.card-content h4 {
+    margin: 0 0 10px; 
+    font-size: 0.5em; 
+    color: #333;
+    text-align: left;
+}
+.location {
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+}
+.location img {
+    width: 16px; 
+    height: auto;
+}
+.location h6 {
+    margin: 0;
+    font-size: 0.2em; 
+    color: #666; 
+}
+.location h6 {
+    margin: 0;
+}
+.inner-card-container {
+    display: flex; 
+    gap: 40px; 
+    justify-content: center;
+    width: 100%;
+    height: 12em;
+}
+.card-white{
+    background-color: #fff;
+    justify-content: flex-end;
+    gap: 80px;
+    padding: 40px 32px 48px;
+    flex: 1;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 10px 26px 150px #4342631a; 
+}
+.best{
+    text-align: left;
+    font-size: 1em;
+    font-family: "gilda display";
+    color: #343333;
+    width: 80%;
+    padding: 20px;
+    padding-top:20px;
+    margin-top: 100px;
+    transform: translateY(50%);
+}
+.p{
+    font-family: "urbanist";
+    font-size: 0.5em;
+    color: #6c757d;
+}
+.guide{
+    text-align: left;
+    font-size: 1em;
+    font-family: "gilda display";
+    color: #FFFFFF;
+    width: 80%;
+    padding: 20px;
+    padding-top:20px;
+    margin-top: 100px;
+    transform: translateY(50%);
+}
+.p2{
+    font-family: "urbanist";
+    font-size: 0.5em; 
+}
+.always{
+    text-align: left;
+    font-size: 1em;
+    font-family: "gilda display";
+    color: #343333;
+    width: 80%;
+    padding: 20px;
+    padding-top:20px;
+    margin-top: 100px;
+    transform: translateY(50%);
+}
+.p3{
+    font-family: "urbanist";
+    font-size: 0.5em;
+    color: #6c757d;
+}
+.inner-card-container {
+    display: flex; 
+    gap: 40px; 
+    justify-content: center;
+    width: 100%;
+    height: 12em;
+}
+.card-white{
+    background-color: #fff;
+    justify-content: flex-end;
+    gap: 80px;
+    padding: 40px 32px 48px;
+    flex: 1;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 10px 26px 150px #4342631a; 
+}
+.best{
+    text-align: left;
+    font-size: 1em;
+    font-family: "gilda display";
+    color: #343333;
+    width: 80%;
+    padding: 20px;
+    padding-top:20px;
+    margin-top: 100px;
+    transform: translateY(50%);
+}
+.p{
+    font-family: "urbanist";
+    font-size: 0.5em;
+    color: #6c757d;
+}
+.guide{
+    text-align: left;
+    font-size: 1em;
+    font-family: "gilda display";
+    color: #FFFFFF;
+    width: 80%;
+    padding: 20px;
+    padding-top:20px;
+    margin-top: 100px;
+    transform: translateY(50%);
+}
+.p2{
+    font-family: "urbanist";
+    font-size: 0.5em; 
+}
+.always{
+    text-align: left;
+    font-size: 1em;
+    font-family: "gilda display";
+    color: #343333;
+    width: 80%;
+    padding: 20px;
+    padding-top:20px;
+    margin-top: 100px;
+    transform: translateY(50%);
+}
+.p3{
+    font-family: "urbanist";
+    font-size: 0.5em;
+    color: #6c757d;
+}
+.listtop{
+position: absolute;
+width: 30.7%;
+height: 4px;
+bottom: 450px;
+left: 1.5em;
+background-color: #25A59E;
+justify-items: start;
+margin-left: -32px;
+}
+.listtop2{
+position: absolute;
+width: 30.7%;
+height: 4px;
+bottom: 450px;
+right: 1.5em;
+background-color: #25A59E;
+justify-items: start;
+margin-right: -32px;
+}
+.card-green {
+    background-color:#25A59E;
+    color: #f8f8f8;
+    justify-content: flex-end;
+    gap: 80px;
+    padding: 40px 32px 48px;
+    flex: 1;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 10px 26px 150px #4342631a; 
+}
+.card-green h2{
+    color: #f8f8f8;
+}
+.card{
+    padding-left:20px ;
+    padding-right:20px ;
+}
+
+.details-container {
+    display: flex; 
+    align-items: center;
+    margin-top: 170px;
+    color:  #25A59E;
+    
+}
+.card-green{
+    background-color:  #25A59E;
+}
+.spann{
+    margin-right: 8px; 
+    padding-left: 220px;
+    font-size: 0.6em;
+    margin-bottom: 1px;
+    color: #25A59E ;
+}
+.spann3{
+    margin-right: 8px; 
+    padding-left: 220px;
+    font-size: 0.6em;
+    margin-bottom: 1px;
+    color: #f8f3f3;
+}
+
+.color {
+    vertical-align: middle; 
+    }
+
+.arrow-right img {
+    vertical-align: middle; 
+}
+
+   
+
+.content span{
+    color: #25A59E; 
+    font: italic;
+}
+.content h3{
+    font-size: 2em;
+    color: #0a0f14;
+}
+.content {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 50px; 
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 300px;
+}
+.text-group {
+    flex: 1; 
+}
+.text 
+img {
+    max-width: 200%;
+    height: auto;
+}
+.trip {
+    text-align: center; 
+    padding: 20px; 
+    margin-top: -200px;
+}
+.trip p {
+    font-size: 3em; 
+    color: #333; 
+    margin: 0; 
+    line-height: 1.2; 
+}
+.parent-container {
+    overflow: hidden; 
+}
+
+.Watch {
+    position: relative; 
+    display: inline-block; 
+    width: 100%;
+}
+
+.Watch img {
+    display: block; 
+}
+
+.Watch .circle {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
+.Watch img[src*="Play.svg"] {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+.footer {
+    padding: 20px;
+    background-color: #FFFFFF;
+
+    width: Fill (1,440px)
+}
+
+.Watch {
+    position: relative;
+    display: inline-block; 
+}
+.background-image {
+    display: block; 
+}
+
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.group {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 300px;
+    font-size: 4em;
+    font-style: italic; 
+}
+.text-content {
+    margin-top: 20px; 
+    width: fill(1440px);
+    height: hug(207px);
+    justify: space-between;
+    padding: 0px, 120px, 0px, 120px;
+}
+.header-container h5 {
+    margin: 0; 
+}
+.text-content p {
+    margin: 0;
+    line-height: 1.5;
+    width: fill(1440px);
+    height: 132px;
+    gap: 48px;
+}
+.text-content p span{
+    color: #25A59E; 
+    padding-bottom: 20px;
+    font: 1em sans-serif;
+    padding-top: 20px;
+    font-size: 1em;
+}.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.social {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0  10px;
+}
+.cam{
+    
+    width: 20%;
+}
+
+.header-links h5 {
+    display: inline;
+    margin: 0  10px; 
+}
+
+
+
