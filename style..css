@@ -496,6 +496,7 @@ img {
     height: hug(207px);
     justify: space-between;
     padding: 0px, 120px, 0px, 120px;
+
 }
 .header-container h5 {
     margin: 0; 
@@ -534,6 +535,185 @@ img {
     display: inline;
     margin: 0  10px; 
 }
+@media only screen and (max-width: 600px){
+    header {
+        padding: 20px; 
+        flex-direction: row; 
+        align-items: center; 
+        justify-content: space-between; 
+    }
+    
+    .frame img {
+        padding: 20px; 
+        max-width: 100%; 
+        height: auto; 
+        margin-left: -10px;
+    }
+    h1 {
+        font-size: 24px; 
+    }
+    nav {
+        font-size: 18px; 
+    }
+    .image-container {
+        position: relative;
+        width: 100%;
+        margin: auto;
+    }
+    .blurry-image {
+        width: 100%; 
+        height: auto; 
+        position: absolute; 
+        top: 0; 
+        left: 50%; 
+        transform: translateX(-50%); 
+        z-index: 1; 
+    }
+    .ellipse-image {
+        width: 100%; 
+        height: auto; 
+        position: absolute; 
+        top: -30%; 
+        left: 50%; 
+        transform: translateX(-50%); 
+        z-index: 2; 
+    }
+    .travel-image {
+        width: 100%; 
+        height: auto;
+        position: relative; 
+        margin-top: -12%; 
+        z-index: 3; 
+    }
+    .card-container0 {
+        display: flex;
+        flex-direction: column; 
+        gap: 10px;
+        width: 100%;
+        overflow-x: hidden; 
+    }
+    .card {
+        flex: 1 1 100%; 
+        box-sizing: border-box;
+        margin-bottom: 20px; 
+        border: 1px solid #ddd; 
+        overflow: hidden; 
+        background-color: #fff;  
+        padding-top: 20px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .header-container{
+        flex-direction: column;
+        text-align: left;
+        width: 50%;
+        overflow-x: hidden;
+    }
+    .click{
+        margin-top: -350px;
+        margin-left: -300px;
+    }
+    .card img {
+        width: 100%; 
+        height: auto;
+    }
+    .card-content {
+        padding: 15px;
+    }
+    .card-content h4 {
+        margin: 0 0 10px; 
+        font-size: 0.5em; 
+        color: #333;
+        text-align: left;
+    }
+    .location {
+        display: flex;
+        align-items: center;
+        gap: 5px; 
+    }
+    .location img {
+        width: 16px; 
+        height: auto;
+    }
+    .location h6 {
+        margin: 0;
+        font-size: 0.2em; 
+        color: #666; 
+    }
+    section h1 {
+        font-size: 1em;
+        margin-bottom: 10px;
+        text-align: left;
+        width: 100%;
+    }
+    section h2 {
+        font-size: 0.5em;
+        color: #6c757d;
+        text-align: left; 
+        width: 100%;
+}
+.inner-card-container {
+display: flex; 
+flex-direction: column; 
+gap: 20px; 
+justify-content: center;
+width: 100%;
+height: auto; 
+overflow-x: hidden;
+}
+.best{
+margin-top: -100px;
+}
+.guide{
+margin-top: -100px;
+}
+.always{
+margin-top: -100px;
+}
+.text-content{
+width: 100%;
+}
+.trip{
+flex-direction: column;
+}
+.p-travel{
+font-size: 1em;
+}
+.container{
+flex-direction: column;
+overflow-x: hidden;
+}
+.header-container{
+text-align: left;
+width: 100%;
+overflow-x: hidden;
+}
+.text-group{
+flex-direction: column;
+}
+.group{
+flex-direction: column;
+}
+.content {
+flex-direction: column; 
+align-items: flex-start; 
+}
+.text-group{
+margin-left: -130px;
+font-size: 1.5em;
+}
+.group.pic{
+margin-left: -250px;
+}
+.text-group, .group.pic {
+width: 100%; 
+margin-bottom: 20px; 
+}
+}
+
+
+
+
 
 
 
