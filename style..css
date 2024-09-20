@@ -582,7 +582,7 @@ img {
         width: 100%; 
         height: auto;
         position: relative; 
-        margin-top: -12%; 
+        margin-top: -14%; 
         z-index: 3; 
     }
     .card-container0 {
@@ -690,6 +690,7 @@ overflow-x: hidden;
 }
 .text-group{
 flex-direction: column;
+width: 20%;
 }
 .group{
 flex-direction: column;
@@ -701,14 +702,15 @@ align-items: flex-start;
 .text-group{
 margin-left: -130px;
 font-size: 1.5em;
+width: 30%;
 }
 .group.pic{
 margin-left: -250px;
 }
 .text-group, .group.pic {
-width: 100%; 
-margin-bottom: 20px; 
-}
+    width: 100%; 
+    margin-bottom: 20px; 
+    }
 }
 
 
