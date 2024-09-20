@@ -1,6 +1,6 @@
-# Travel Website Desktop View
+# Travel Website Desktop View and mobile view
 
-Welcome to the Travel Website project! This repository contains the desktop view implementation of our travel website, designed with HTML and CSS to provide a visually appealing and user-friendly experience for travelers planning their next adventure.
+Welcome to the Travel Website project! This repository contains the desktop view  and mobile implementation of our travel website, designed with HTML and CSS to provide a visually appealing and user-friendly experience for travelers planning their next adventure.
 
 ## Table of Contents
 
@@ -28,7 +28,7 @@ Welcome to the Travel Website project! This repository contains the desktop view
 
 ## Introduction
 
-The Travel Website is a platform that allows users to explore various travel destinations, discover attractions, accommodations, and activities, and plan their trips seamlessly. This repository focuses specifically on the desktop view, ensuring an optimized and engaging experience for users on larger screens.
+The Travel Website is a platform that allows users to explore various travel destinations, discover attractions, accommodations, and activities, and plan their trips seamlessly. This repository focuses specifically on the desktop view, ensuring an optimized and engaging experience for users on larger screens and small screens as well.
 
 ## Live Demo
 
@@ -37,7 +37,7 @@ Check out the live demo of my project:  https://fatimaabubakaradam.github.io/tra
 
 ## Features
 
-- **Clean and Responsive Design:** A desktop-optimized layout that adapts to various screen sizes and resolutions.
+- **Clean and Responsive Design:** A desktop-optimized and mobile layout that adapts to various screen sizes and resolutions.
 - **Interactive Navigation:** User-friendly navigation to easily explore different sections of the website.
 - **Attraction and Accommodation Listings:** Detailed sections for attractions and lodging options with images and descriptions.
 - **Activity Recommendations:** Suggestions for activities based on destination and user interests.
@@ -49,7 +49,7 @@ Check out the live demo of my project:  https://fatimaabubakaradam.github.io/tra
 
 ## Setup and Installation
 
-To get started with the Travel Website desktop view, follow these steps:
+To get started with the Travel Website , follow these steps:
 
 1. **Clone the Repository:**
 
